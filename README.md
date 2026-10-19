@@ -9,6 +9,11 @@
 ## Навигация
 
 - [getting_started/](getting_started/) - настройка репозитория, правил GitHub и автоматических проверок.
+- [code_quality/](code_quality/) - практика рефакторинга грязного кода.
+- [data_models/](data_models/) - Enum, Pydantic и сравнение с dataclasses.
+- [data_structures/](data_structures/) - списки, deque, деревья, кучи и графы.
+- [dynamic_programming/](dynamic_programming/) - мемоизация и табуляция.
+- [algorithms/](algorithms/) - рекурсия и сортировка.
 
 ## Правила курса
 
