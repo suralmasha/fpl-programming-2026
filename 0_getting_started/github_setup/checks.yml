@@ -54,7 +54,7 @@ jobs:
           "${runner[@]}" -m pytest || test_status=$?
           if [ "$test_status" -eq 5 ]; then
             echo 'Тесты не найдены' >> "$GITHUB_STEP_SUMMARY"
-            exit 0
+            exit 5
           fi
           exit "$test_status"
 
