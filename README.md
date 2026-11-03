@@ -14,3 +14,7 @@
 - [2.2_algorithms/](2.2_algorithms/) - рекурсия и сортировка.
 - [2.3_dynamic_programming/](2.3_dynamic_programming/) - мемоизация и табуляция.
 - [2.4_data_models/](2.4_data_models/) - Enum, Pydantic и сравнение с dataclasses.
+- [3_project_structure/](3_project_structure/) - примеры flat- и src-layout.
+- [4_dependency_management/](4_dependency_management/) - uv, Poetry, зависимости и pyproject.toml.
+- [5_configuration/](5_configuration/) - конфигурация через os.environ и Pydantic.
+- [6_standardisation/](6_standardisation/) - Makefile, pre-commit и нечистый код для демонстрации линтеров и форматтеров.

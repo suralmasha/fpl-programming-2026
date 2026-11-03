@@ -1,0 +1,15 @@
+# Пример .pre-commit-config.yaml. В проекте файл должен лежать в корне Git-репозитория
+repos:
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.17.3  # фиксированная версия Ruff
+    hooks:
+      - id: ruff-check  # линтер: сначала исправить доступные нарушения
+      - id: ruff-format  # форматтер: привести код к единому оформлению
+
+  - repo: local  # локальные хуки проекта
+    hooks:
+      - id: pytest
+        name: Run tests
+        entry: uv run --group test pytest tests  # запуск тестов через uv
+        language: system  # запуск команды без отдельного окружения хука
+        pass_filenames: false  # запускать весь набор тестов, не передавать имена измененных файлов

@@ -1,0 +1,16 @@
+project/
+    src/                <-- код изолирован
+        module_name/
+            __init__.py
+            file.py
+            core.py
+            ...
+        helpers.py
+        consts.py
+        ...
+    tests/              <-- тесты
+        test_func.py
+    docs/               <-- документация
+    README.md
+    pyproject.toml      <-- зависимости и конфигурация
+    .gitignore
