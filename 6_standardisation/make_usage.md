@@ -63,6 +63,6 @@ lint:
 | `make publish`                   | Опубликовать пакет на PyPI                                          |
 
 Пути, зависимости и команды в Makefile выбирают под свой проект.
-Для публикации нужен токен, описанный в [инструкции uv](../packaging/uv_usage.md).
+Для публикации нужен токен, описанный в [инструкции uv](../7_packaging/uv_usage.md).
 Если форматированием занимается Ruff, используйте `uv run ruff format .`
 вместо Black, а `uv run ruff check --select I --fix .` - вместо isort.

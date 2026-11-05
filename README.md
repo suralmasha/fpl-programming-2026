@@ -18,3 +18,4 @@
 - [4_dependency_management/](4_dependency_management/) - uv, Poetry, зависимости и pyproject.toml.
 - [5_configuration/](5_configuration/) - конфигурация через os.environ и Pydantic.
 - [6_standardisation/](6_standardisation/) - Makefile, pre-commit и нечистый код для демонстрации линтеров и форматтеров.
+- [7_packaging/](7_packaging/) - сборка и публикация пакетов с uv, Poetry и setuptools.
